@@ -23,8 +23,8 @@
   },
   "preferGlobal": false,
   "private": true
-}
-"scripts": {
+  "scripts": {
   "start": "node webserver.js"
 },
 "main": "webserver.js"
+}
