@@ -23,7 +23,7 @@
   "preferGlobal": false,
   "private": true,
   "scripts": {
-   "preinstall": "npm install /facebook-adssdk-node/",
+   "preinstall": "npm install ./facebook-adssdk-node/",
   "start": "node webserver.js"
 },
 "main": "webserver.js"
