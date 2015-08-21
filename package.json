@@ -14,6 +14,7 @@
     "gulp-watch": "^4.2.4"
   },
   "dependencies": {
+    "facebook-adssdk-node": "file:../facebook-adssdk-node/",
     "promise": "^7.0.3",
     "react": "^0.13.3",
     "react-router": "^0.13.3",
@@ -23,8 +24,7 @@
   "preferGlobal": false,
   "private": true,
   "scripts": {
-   "preinstall": "npm install ./facebook-adssdk-node/",
-  "start": "node webserver.js"
-},
-"main": "webserver.js"
+    "start": "node webserver.js"
+  },
+  "main": "webserver.js"
 }
