@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "promise": "^7.0.3",
-    "facebook-adssdk-node": "file:/facebook-adssdk-node/",
     "react": "^0.13.3",
     "react-router": "^0.13.3",
     "react-bootstrap": "^0.22.4",
@@ -24,7 +23,7 @@
   "preferGlobal": false,
   "private": true,
   "scripts": {
-   "preinstall": "npm install ../my-own-module/",
+   "preinstall": "npm install /facebook-adssdk-node/",
   "start": "node webserver.js"
 },
 "main": "webserver.js"
