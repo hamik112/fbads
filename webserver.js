@@ -23,7 +23,7 @@ if (production) {
 }
 
 // start the server
-var port = 8080;
+var port = 8088;
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
