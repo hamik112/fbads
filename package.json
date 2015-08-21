@@ -24,6 +24,7 @@
   "preferGlobal": false,
   "private": true,
   "scripts": {
+   "preinstall": "npm install ../my-own-module/",
   "start": "node webserver.js"
 },
 "main": "webserver.js"
