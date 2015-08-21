@@ -24,3 +24,7 @@
   "preferGlobal": false,
   "private": true
 }
+"scripts": {
+  "start": "node webserver.js"
+},
+"main": "webserver.js"
